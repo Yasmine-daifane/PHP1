@@ -38,7 +38,7 @@
             <div class=" d-flex justify-content-between mb-3 card-color">
                 <div class="w-75">
                     <h3 class="bg-warning text-light text-aligne-center d-flex justify-content-center">23 NOV 11:00 H</h3>
-                    <div class="d-flex  align-items-center justify-content-end m-2">
+                    <div class="d-flex  align-items-center justify-content-start m-2">
                         <img src="images/morocco.jfif" alt="" class="rounded-circle" width="50px" height="50px">
                         <h2>MOROCCO</h2>
                     </div>
@@ -59,16 +59,16 @@
                 </div>
             </div>
             <div class="d-flex justify-content-between mb-3 card-color">
-                <div class="w-100">
+                <div class="w-75">
                     <h3 class="bg-warning text-light text-aligne-center d-flex justify-content-center">23 NOV 11:00 H</h3>
-                    <div class="d-flex  align-items-center justify-content-end m-2">
+                    <div class="d-flex  align-items-center justify-content-start m-2">
                         <img src="images/Belgium.png" alt="" class="rounded-circle" width="50px" height="50px">
                         <h2>Belgium</h2>
                     </div>
                 </div>
                 <div class="w-75">
                     <h3 class="bg-dark text-light d-flex justify-content-center">FINAL</h3>
-                    <div class="text-center mt-3 mx-auto">
+                    <div class="text-center d-flex mt-3 mx-auto">
                         <input type="number" min="0" name="inpBelgiumMatchTwo" >
                         <input type="number" min="0" name="inpCanadaMatchTwo" >
                     </div>
@@ -82,16 +82,16 @@
                 </div>
             </div>
             <div class="d-flex justify-content-between mb-3 card-color">
-                <div class="w-100">
+                <div class="w-75">
                     <h3 class="bg-warning text-light text-aligne-center d-flex justify-content-center">23 NOV 11:00 H</h3>
-                    <div class="d-flex  align-items-center justify-content-end m-2">
+                    <div class="d-flex  align-items-center justify-content-start m-2">
                         <img src="images/morocco.jfif" alt="" class="rounded-circle" width="50px" height="50px">
                         <h2>MOROCCO</h2>
                     </div>
                 </div>
                 <div class="w-75">
                     <h3 class="bg-dark text-light d-flex justify-content-center">FINAL</h3>
-                    <div class="text-center mt-3 mx-auto">
+                    <div class="text-center d-flex mt-3 mx-auto">
                         <input type="number" min="0" name="inpMoroccoMatchThree" >
                         <input type="number" min="0" name="inpBelgiumMatchThree" >
                     </div>
@@ -107,7 +107,7 @@
             <div class="d-flex justify-content-between mb-3 card-color">
                 <div class="w-75">
                     <h3 class="bg-warning text-light text-aligne-center d-flex justify-content-center">23 NOV 11:00 H</h3>
-                    <div class="d-flex  align-items-center justify-content-end m-2">
+                    <div class="d-flex  align-items-center justify-content-start m-2">
                         <img src="images/croitia.png" alt="" class="rounded-circle" width="50px" height="50px">
                         <h2>CROITIA</h2>
                     </div>
@@ -130,7 +130,7 @@
             <div class="d-flex justify-content-between mb-3 card-color">
                 <div class="w-75">
                     <h3 class="bg-warning text-light text-aligne-center d-flex justify-content-center">23 NOV 11:00 H</h3>
-                    <div class="d-flex  align-items-center justify-content-end m-2">
+                    <div class="d-flex  align-items-center justify-content-start m-2">
                         <img src="images/Belgium.png" alt="" class="rounded-circle" width="50px" height="50px">
                         <h2>Belguim</h2>
                     </div>
@@ -153,7 +153,7 @@
             <div class="d-flex justify-content-between mb-3 card-color">
                 <div class="w-75">
                     <h3 class="bg-warning text-light d-flex justify-content-center">23 NOV 11:00 H</h3>
-                    <div class="d-flex  align-items-center justify-content-end m-2">
+                    <div class="d-flex  align-items-center justify-content-start m-2">
                         <img src="images/morocco.jfif" alt="" class="rounded-circle" width="50px" height="50px">
                         <h2>MOROCCO</h2>
                     </div>
@@ -174,8 +174,10 @@
                 </div>
             </div>
            
-            <button type="submit" name="submit" class="btn btn-outline-dark  ml-5 container w-25  h1 d-flex justify-content-center">Simulateur</button>
+            <button type="submit" name="submit" class=" btn ml-5 container w-50 d-flex justify-content-center">Simulateur</button>
         </form>
+       
+
     <!-- Create Table -->
       <table class="table w-50 table-responsive-sm  mt-5 text-center mx-auto">
         <thead>
