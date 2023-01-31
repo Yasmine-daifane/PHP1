@@ -21,7 +21,7 @@
     <title>FIFA</title>
     <!-- link bootsrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <!-- link CSS -->
+
  
     <link rel="stylesheet" href="test.css">
 </head>
@@ -173,7 +173,7 @@
                     </div>
                 </div>
             </div>
-            <!-- <button >ADD</button> -->
+           
             <button type="submit" name="submit" class="btn btn-outline-dark  ml-5 container w-25  h1 d-flex justify-content-center">Simulateur</button>
         </form>
     <!-- Create Table -->
@@ -195,7 +195,7 @@
             <tbody>
              <?php
                 $i = 1;        
-                // ======================= Matches are run according to goals and POINTSs ... ==============================
+                // ======================= Matches are run according to goals and POINTSs  ==============================
               if(isset($_GET['submit'])) { 
                 // click in button add result
                 //===match 1
